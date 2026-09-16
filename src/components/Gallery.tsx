@@ -42,6 +42,7 @@ export default function Gallery() {
                 src={photo.src} 
                 alt={photo.alt}
                 fill
+                unoptimized
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
               />
